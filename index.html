@@ -3,11 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel ="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"/>
+    <link rel="stylesheet" href="css/all.min.css">
     <title>Document</title>
 </head>
 <body>
-    <div>tezaaak</div>
-
+    <div id="main">
+        <div id="login">
+            <form id="form_1" action="submit">
+                <h1 id = "header_login">Sign in</h1>
+                <ul>
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.google.com"><i class="fab fa-google"></i></a></li>
+                    <li><a href="https://www.github.com"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <p id ="hint_login">Or Use Your Account</p>
+            <input id ="userName_login" type ="text" placeholder="User Name"  required>
+            <input id ="password_login" type ="text" placeholder="password" required>
+            <input id="button_login" type="submit" value = "LogIn">
+        </form>
+        </div>
+        <div id="sign_up">
+            <form id="form_2" action="submit">
+                <h1 id = "header_signup">Create Account</h1>
+                <ul>
+                    <li><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="https://www.google.com"><i class="fab fa-google"></i></a></li>
+                    <li><a href="https://www.github.com"><i class="fab fa-github"></i></a></li>
+                </ul>
+                <p id ="hint_signup">Or Use Email For Registration</p>
+                <input id ="userName_signup" type ="text" placeholder="User Name"  required>
+                <input id ="email_signup" type ="text" placeholder="E-mail"  required>
+                <input id ="password_signup" type ="password" placeholder="Password"  required>
+                <input id ="button_signup" type="submit" value = "SignUp">
+            </form>
+        </div>
+        </div>
+    </div>
 </body>
+<script src="index.js"></script>
 
 </html>

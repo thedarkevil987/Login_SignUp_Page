@@ -1,0 +1,140 @@
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+#main{
+    margin: 0;
+    padding: 0;
+    background-image: url("wallpaper.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position: relative;
+}
+#login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    height:60vh;
+    border: 1px solid black;
+    border-right: 0;
+    border-radius:10px 0 0 10px;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(2px); 
+}
+#sign_up{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    width: 25vw;
+    height:60vh;
+    border: 1px solid black;
+    border-left: 0;
+    border-radius:0 10px 10px 0;
+    background: rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(2px); 
+}
+#form_1{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+#form_2{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+
+}
+
+#userName_signup ,#userName_login,#password_login ,#email_signup ,#password_signup{
+    padding:5px 5px 5px 15px;
+    height: 30px;
+    outline: none;
+    width: 70%;
+}
+
+#header_login ,#header_signup{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+ul{
+    list-style-type:none;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap : 50px
+}
+li{
+    
+}
+a {
+    text-decoration: none;
+}
+i{
+    font-size: 30px;
+    color:#001010;
+}
+
+#button_signup ,#button_login {
+    width: 120px;
+    outline: none;
+    border-radius: 30px;
+    height: 60px;
+    border: 0;
+    align-self: center;
+    color:white;
+    background-color: black;
+}
+
+#button_signup:hover ,#button_login:hover{
+    color:black;
+    background-color: white;
+}
+h1{
+    margin-bottom: -20px;
+}
+#email_signup{
+    margin-top: -50px;
+    margin-bottom: -50px ;
+}
+#password_login{
+    margin-top: -25px;
+}
+#button_signup{
+    margin-bottom: -60px;
+}
+p {
+    text-align: center;
+    font-weight: bold;
+}
+
+#hint_signup{
+    margin-bottom: -40px;
+}
+
+#hint_login{
+    margin-bottom:-20px ;
+    margin-top: 30px;
+}
+#header_login{
+    margin-top: 25px;
+    margin-bottom:25px;
+}
